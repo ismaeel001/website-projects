@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    margin: auto;
+    padding: 50px;
+    background-image: url(images/images.jpeg);
+}
+#head{
+    background-color: rgb(5, 5, 10);
+    height: 100px;
+    width: 100%;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#head h1{
+    font-size: 50px;
+    font-style: inherit;
+    font-weight: bolder;
+    height: 100px;
+    padding: 29px 20px 0px 10px;
+}
+#head ul{
+    list-style: none;
+    display: inline-flex;
+    padding: 10px;
+}
+#head ul li{
+      text-decoration: none;
+      margin: 5px;
+      padding: 10px;
+      height: 15px;
+      width: 90px;
+      border-radius: 10%;
+      display: flex;
+      align-items: center;
+}
+#head ul li a{
+    display: block;
+    padding: 5px 5px 5px 5px;
+    font-weight: bolder;
+    
+}
+#head ul :hover{
+    background-color: rgb(8, 90, 90);
+}
+#art h1{
+    height: 18px;
+    color: rgb(240, 235, 229);
+    font-size: 60pt;
+    padding-left: 20px;
+}
+#art h2{
+    color: rgb(185, 161, 136);
+    font-size: 60pt;
+    padding-left: 30px;
+    
+    
+}
+#slidebar p{
+    color: cornsilk;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 80px;
+}
+#slidebar p1{
+    color: blanchedalmond;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 2px;
+    padding-left: 80px;
+}
+#footer{
+    background-color: rgb(4, 37, 48);
+
+}
+#footer p{
+    color: rgb(226, 240, 240);
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 480px;
+}
