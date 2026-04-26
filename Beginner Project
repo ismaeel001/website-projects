@@ -1,0 +1,13 @@
+balance = 10000
+while True:
+    user_input = input("Enter  amount to withdraw (or 'exit') :")
+    if user_input.lower() == 'exit':
+        print("Thank you")
+        break
+
+    amount = int(user_input)
+    if amount <= balance:
+        balance -= amount
+        print("Withdrawal successful ✅,\nRemaining balance:", balance)
+    else:
+        print("Insufficient Balance ")
