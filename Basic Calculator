@@ -1,0 +1,25 @@
+print(input("===Simple Calculator==="))
+    
+a = float(input("First Number Enter : "))
+b = float(input("Second number Enter : "))
+    
+print("What you do?")
+print("1. Add (+)")
+print("2. Subtract (-)")
+print("3. Multiply (*)")
+print("4. Divide (/)")
+    
+choice = input("Enter Your choice (1/2/3/4): ")
+    
+if choice == "1":
+    print("Answer:", a + b)
+elif choice == "2":
+    print("Answer:", a - b)
+elif choice == "3":
+    print("Answer:", a * b)
+elif choice == "4":
+    print("Answer:", a / b)
+else:
+    print("Wrong choice!")
+
+print("calculator")
